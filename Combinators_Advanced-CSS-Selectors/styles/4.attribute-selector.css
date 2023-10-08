@@ -1,0 +1,8 @@
+/* div.mydiv ul>li>a[target]{
+  color: red;
+} */
+/* both link will be red with  the target attribute */
+
+div.mydiv li>a[target="_blank"]{
+  color: red;
+}
