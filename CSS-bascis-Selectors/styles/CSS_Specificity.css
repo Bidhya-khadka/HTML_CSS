@@ -1,0 +1,32 @@
+/* css sepecificity */
+/* inline>id>class>element>group>universal */
+/* despite css specififcity we can force element to apply specific css rules to element using !"important" */
+ /* EXAMPLE(but not recommended to use): color: rgb(51, 32, 218)!important */ 
+
+
+ 
+ /* css reset code using universal selector -- to remove the nullified space in diff browser */
+ /* ----------- */
+ *{
+  border: 0;
+  margin: 0;
+  padding: 0;
+ }
+/* ------------- */
+
+#header1{
+  text-align: center;
+  color: goldenrod;
+}
+.myparag{
+  color: black;
+
+}
+#parag{
+  color: brown;
+
+}
+p{
+  color: rgb(51, 32, 218);
+  /* color: rgb(51, 32, 218)!important */
+}
