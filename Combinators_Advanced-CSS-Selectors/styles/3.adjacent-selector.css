@@ -1,0 +1,22 @@
+/* adjacent selector (+) one element next to another element (basically used for a consistent structure) */
+
+h2+h3{
+  text-decoration: underline;
+}
+section + p{
+  color: red;
+}
+
+div.mydiv + p{
+  color: goldenrod;
+  font-size: 3em;
+}
+
+/* works same p i ,p>i */
+p>i{
+  font-weight: bold;
+}
+
+p i {
+  font-weight: bold;
+}
