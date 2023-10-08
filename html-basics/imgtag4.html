@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--img tag comes with two attribute src and alt-->
+    <!--src means the image link from the web(usually from the server)-->
+    <!--alt attributes value rendered when image fails to load-->
+    <img
+      src="../html-basics/public/plateau.jpg"
+      alt="plateau image"
+      width="800"
+      height="800"
+    />
+    <!--giving absolute path is not a good practice "c:/images/kalu.jpg" instead giving relative path is highly recommended(./ current folder ../parent folder)-->
+
+    <!--width and height attribute can be given to give specific dimension of an image-->
+
+    <!--lets make image clickable by wrapping img tag with the anchor tag-->
+    <a href="html_page_structure2.html" target="_blank">
+      <img
+        src="../html-basics/public/plateau.jpg"
+        alt="plateau image"
+        width="800"
+        height="200"
+      />
+    </a>
+  </body>
+</html>

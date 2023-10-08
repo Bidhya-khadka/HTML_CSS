@@ -1,0 +1,29 @@
+<!-- select tag is used to create dropdown or scrollabe box(size="4") with various options -->
+<!-- <optgroup> to give category under dropdown e.g. <optgroup label="Frontend"> -->
+<!-- 'size' attribute in select tag is used to show the scrolllist with specific row (<select size="4">) -->
+<!-- 'disabled' keyword is used in option tag to unselect the dropdown that particular option -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>select tag</title>
+  </head>
+  <body>
+    <h1>SELECT TAG</h1>
+    <label for="codelang">Code language</label><br />
+    <!-- <select name="codelang" id="codelang" size="4"> -->
+    <select name="codelang" id="codelang">
+      <optgroup label="Frontend">
+        <option>Html</option>
+        <option>css</option>
+        <option disabled>js</option>
+        <option>react</option>
+      </optgroup>
+      <optgroup label="backend">
+        <option>python</option>
+        <option>php</option>
+      </optgroup>
+    </select>
+  </body>
+</html>
