@@ -1,3 +1,5 @@
+/* element[attribute] or element[attribute name~="value] */
+
 /* div.mydiv ul>li>a[target]{
   color: red;
 } */

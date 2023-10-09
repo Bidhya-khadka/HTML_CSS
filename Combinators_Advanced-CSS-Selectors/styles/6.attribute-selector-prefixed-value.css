@@ -1,0 +1,8 @@
+/* caret sign (^) is used to select the attribute value stats with */
+body{
+  background-color: black;
+}
+
+a[href^="g"][target~="_blank"]{
+  color: goldenrod;
+}
