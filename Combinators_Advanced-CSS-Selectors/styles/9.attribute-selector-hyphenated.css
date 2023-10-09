@@ -1,0 +1,5 @@
+/* (|) only matched and the value hyphenated after matching the values are only selected */
+
+li[class|="my"]{
+  color: goldenrod;
+}
