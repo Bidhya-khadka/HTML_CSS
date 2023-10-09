@@ -1,0 +1,21 @@
+/* attribute spaced selector(~) selects the html element having attribute and ignores the whitespaces/blankspaces */
+
+/* element[attribute] or element[attribute name~="value] */
+
+
+/* select google.com only with the use of attribute selector */
+/* div#heading>a[target="_blank"]{
+  color:red
+} */
+
+/* use of attribute spaced selector(~) ignores the whitespace */
+div#heading>a[target~="_blank"]{
+  color:red
+}
+
+p[class~="myclass"]{
+  color: goldenrod;
+}
+body{
+  background-color: black;
+}
