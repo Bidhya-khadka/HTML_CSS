@@ -1,0 +1,11 @@
+/* select at least one occurenace of any value using (*) */
+/* along with i is used to ignore the case-sensitive */
+
+body{
+  color: black;
+}
+a[href^="g"][href$=".com"][target*="b"]{
+  color: goldenrod;
+}
+
+/* starts with(^) ends with($) contains(*) */

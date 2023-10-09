@@ -1,0 +1,5 @@
+/* attribute selector - suffixed value ($) used to select the attribute value ends with.... e.g .com */
+
+div#heading>a[href^="g"][href$=".com"]{
+  color: red;
+}
