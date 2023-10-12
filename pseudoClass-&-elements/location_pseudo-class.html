@@ -1,0 +1,34 @@
+<!-- we have 4 types of location-pseudo-class -->
+<!-- :any-link  . selects any link to apply css --independent of whether visited or not-->
+<!-- :link  . selects only link(href="") to apply css -->
+<!-- :visited  . selects any visited to apply css -->
+<!-- :target  . used to target the unique element - which has the matching id as the URL. -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>location pseudo class</title>
+    <link
+      rel="stylesheet"
+      href="../pseudoClass-&-elements/styles/location_pseudo_class.css"
+    />
+  </head>
+  <body>
+    <h2>links to be selected</h2>
+    <div id="heading">
+      <a href="first link">this is first link</a>
+      <br />
+      <a href="google.com">this is google site</a><br />
+      <a href="#">nothing link</a><br />
+      <a href="#para1">target first paragraph</a><br />
+      <a href="#para2">target second paragraph</a><br />
+    </div>
+
+    <h2>links to be targeted</h2>
+    <section>
+      <p id="para1">this is targeted pargraph 1</p>
+      <p id="para2">this is targeted pargraph 2</p>
+    </section>
+  </body>
+</html>

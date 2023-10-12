@@ -1,0 +1,21 @@
+/* div#heading>a:any-link{
+  color: goldenrod;
+} */
+
+
+div#heading>a:link{
+  color: rgb(19, 218, 135);
+} 
+
+
+div#heading>a:visited{
+  color: rgb(72, 8, 109);
+}
+
+
+p:target{
+  color: rgb(179, 12, 12);
+  background-color: goldenrod;
+  border:2px solid darkgoldenrod;
+  border-radius: 3px;
+}
