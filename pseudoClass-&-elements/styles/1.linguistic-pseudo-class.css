@@ -1,0 +1,6 @@
+/* pseudo class is needed to provide better state to an element */
+/* linguistic pseudo class  :dir(rtl) :dir(ltr) */
+
+:dir(rtl){
+  color: red;
+}
