@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: black;
+  color: white;
+}
+h2{
+  text-align: center;
+  margin:1em;
+  text-transform: capitalize;
+}
+h4{
+  display:none;
+  text-align: center;
+}
+form{
+  width: 50%;
+  border: 2px solid red;
+  margin: 20em auto;
+  padding: 2em;
+}
+div.container{
+  margin: auto;
+  border: 2px solid yellow;
+  width: 50%;
+  margin-bottom: 2rem;
+  padding: 2em;
+  border-radius: 4rem;
+}
+.myDiv{
+  margin-bottom: 2em;
+}
+.myDiv label{
+  text-transform: capitalize;
+  margin-left: 2em;
+}
+.myBtn{
+  text-align: center;
+  margin: 20px;
+}
+.myBtn>button[type^="s"]{
+  
+  color: rgba(22, 6, 165, 0.904);
+  font-size: 1rem;
+  padding: 12px 18px;
+  font-weight: bolder;
+  border-radius: 100px;
+  background-color: gold;
+  border: 2px solid goldenrod;
+}
+.myBtn>button:hover{
+  background-color: black;
+  color: white;
+  border: 3px solid goldenrod;
+  font-size: 2rem;
+  padding:12px 20px ;
+}
+.myBtn>button:active{
+  background-color: aqua;
+  color: black;
+}
+
+.container:focus-within .myDiv{
+  border:1px solid rgb(61, 58, 58);
+
+}
+.myDiv:focus-within h4{
+  display: block;
+  color: red;
+
+}
+
+input:enabled{
+  background-color: black;
+  color: aqua;
+  border: 2px solid goldenrod;
+}
+input:disabled {
+  display: none;
+}
+.myDiv>label[for="phone_number"]{
+  text-decoration: line-through;
+}

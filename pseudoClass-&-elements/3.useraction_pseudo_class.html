@@ -1,0 +1,55 @@
+<!-- user action pseudo class requires some interactions- some activity performed by the user on the elements in order for them to be applied. -->
+
+<!--1) :hover  whenever mouse hover on an element -->
+
+<!--2)  :active     when mouse button is pressed or (key>> spacebar enter)key pressed -->
+<!-- 3.  :focus to focus the html element  -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>user action pseudo class</title>
+    <link
+      rel="stylesheet"
+      href="../pseudoClass-&-elements/styles/3.useraction_pseudo_class.css"
+    />
+  </head>
+  <body>
+    <h2>hover user action pseudo class</h2>
+    <button>hover me</button>
+    <div>
+      <a href="#">link to hover effect</a>
+    </div>
+    <button>Active</button>
+
+    <!-- create a form to focus the input using :focus pseudo element -->
+    <form action="#">
+      <h2>form</h2>
+      <ul>
+        <li>
+          <label for="name">Name</label>
+          <input type="text" id="name" />
+        </li>
+        <li>
+          <label for="email">email</label>
+          <input type="text" id="email" />
+        </li>
+      </ul>
+    </form>
+
+    <br /><br />
+    <!-- 4. focus-within selects all the descendants or childelements within the child element -->
+    <!-- :focus pseudo class only selects only the individual element -->
+    <form action="#">
+      <div class="container">
+        <h2>focus-within</h2>
+
+        <input type="password" placeholder="enter password" />
+
+        <div class="prompt-Msg">* Enter a new password</div>
+      </div>
+    </form>
+  </body>
+</html>

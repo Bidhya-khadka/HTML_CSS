@@ -1,0 +1,66 @@
+<!-- input pseudo class -->
+<!-- input pseudo classes relate to the form input elements & selecting the elements based on the html attributes -->
+<!-- :enabled :disabled :read-only :placeholder-shown :default :valid :invalid :user-invalid :out-of-range :required :optional -->
+<!-- enabled and disabled pseudo class---- enabled is used to select all input field where as the disabled is used to not to select the field -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>enabled-disabled pseudo class</title>
+    <link
+      rel="stylesheet"
+      href="../pseudoClass-&-elements/styles/enabled_disabled_input_pseudo_class.css"
+    />
+  </head>
+  <body>
+    <form action="#">
+      <h2>enabled-disabled input pseudo class</h2>
+      <div class="container">
+        <div class="myDiv">
+          <label for="fname">First Name</label>
+          <input type="text" name="fname" id="fname" />
+
+          <h4>* enter a name</h4>
+        </div>
+
+        <div class="myDiv">
+          <label for="age">Age</label>
+          <input type="number" name="age" id="age" />
+          <h4>* enter proper age</h4>
+        </div>
+        <div class="myDiv">
+          <label for="city">city</label>
+          <input type="text" id="city" />
+          <h4>* enter city</h4>
+        </div>
+        <div class="myDiv">
+          <label for="email">email</label>
+          <input type="email" id="email" />
+          <h4>* enter email</h4>
+        </div>
+        <div class="myDiv">
+          <label for="password">password</label>
+          <input type="password" id="password" />
+          <h4>* enter password</h4>
+        </div>
+        <div class="myDiv">
+          <label for="phone_number">phone number</label>
+          <input type="tel" id="phone_number" disabled />
+          <h4>* enter phone number</h4>
+        </div>
+        <!-- ----------- -->
+
+        <div class="myDiv">
+          <label for="martial-status">Martial-Status</label>
+          <input type="radio" name="martial" id="martial-status" />Married
+          <input type="radio" name="martial" id="martial-status" />Unmarried
+        </div>
+
+        <div class="myBtn">
+          <button type="submit">submit</button>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
