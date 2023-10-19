@@ -1,0 +1,57 @@
+<!-- valid invalid and required pseudo class -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>valid invalid and required</title>
+    <link
+      rel="stylesheet"
+      href="../pseudoClass-&-elements/styles/7.valid_invalid_required.css"
+    />
+  </head>
+  <body>
+    <form action="#" class="myForm">
+      <label for="fname">Full Name</label>
+      <input
+        type="text"
+        name="fname"
+        id="fname"
+        required
+        pattern="[A-Z][a-z]{1,20}"
+      />
+      <h4>first character should be in capital letter</h4>
+      <label for="ema">email address</label>
+      <input
+        type="email"
+        name="ema"
+        id="ema"
+        required
+        placeholder="abc@gmail.com"
+      />
+      <h4>enter valid email address</h4>
+
+      <label for="phone">phone number</label>
+      <input
+        type="text"
+        name="phone"
+        id="phone"
+        required
+        placeholder="98........"
+        pattern="[0-9]{10}"
+      />
+      <h4>enter your mobile number</h4>
+
+      <label for="salary"> employee salary</label>
+      <input
+        type="text"
+        name="salary"
+        id="salary"
+        required
+        pattern="[0-9]{4,6}"
+      />
+      <h4>enter proper salary</h4>
+    </form>
+  </body>
+</html>
