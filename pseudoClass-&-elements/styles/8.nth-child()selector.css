@@ -1,0 +1,27 @@
+body{
+  font-family: sans-serif;
+  background-color: black;
+  color: goldenrod;
+  text-align: center;
+}
+.question{
+  text-transform: uppercase;
+}
+
+table{
+background-color: gray;
+width: 50%;
+margin: 0 auto;
+}
+
+tr:nth-child(1){
+  font-weight: bold;
+  text-transform: capitalize;
+  width: 100%;
+  color: white;
+}
+
+tr:nth-child(2n){
+  color: yellowgreen;
+  background-color: rgb(29, 27, 27);
+}
