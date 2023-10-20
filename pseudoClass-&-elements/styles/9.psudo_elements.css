@@ -1,0 +1,16 @@
+div::first-line{
+  text-transform: uppercase;
+  color: rgb(31, 49, 4);
+  text-decoration: underline;
+  color: red;
+}
+span{
+  display: inline-block;
+}
+span::first-line{
+  color: red;
+}
+
+p::first-letter{
+  font-size: 4rem;
+}
