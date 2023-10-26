@@ -1,0 +1,36 @@
+body{
+  background-color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2em;
+  color: white;
+  text-transform: capitalize;
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  column-gap: 12px;
+  row-gap: 12px;
+  text-align: center;
+  background-color: goldenrod;
+  border: 1px solid white;
+  margin: 3rem;
+
+}
+.header{
+  grid-column: span 3;
+}
+
+.subcontainer{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-row: 4fr;
+  border: 1px solid white;
+  text-align: center;
+}
+.sub{
+  border: 1px solid white;
+ 
+}
+.footer{
+  grid-column: span 3;
+}
