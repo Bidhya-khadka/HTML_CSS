@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@media query type</title>
+    <style>
+      body {
+        background-color: black;
+        color: white;
+      }
+      h1 {
+        font-size: 2.5rem;
+        text-align: center;
+        color: green;
+      }
+      div {
+        display: flex;
+        justify-content: center;
+      }
+      ul {
+        list-style-type: none;
+      }
+      li {
+        display: inline-block;
+        margin: 0 12px;
+      }
+      a {
+        text-decoration: none;
+        font-size: 2rem;
+        font-weight: bold;
+        text-transform: capitalize;
+      }
+      p {
+        background-color: #fff;
+        color: brown;
+        text-align: center;
+        font-size: 3rem;
+        margin: 10px 12%;
+        padding: 12px;
+      }
+      @media screen and (max-width: 450px) {
+        h1 {
+          color: brown;
+          font-size: 1.5rem;
+        }
+        ul {
+          display: grid;
+          grid-template-columns: 1fr;
+        }
+        a {
+          font-size: 0.8rem;
+        }
+      }
+      @media print {
+        body {
+          background-color: white;
+        }
+
+        h1 {
+          color: black;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>@media query</h1>
+    <div>
+      <ul>
+        <li><a href="home.html">home</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a href="contact_us.html">contact us</a></li>
+        <li><a href="services.html">services</a></li>
+      </ul>
+    </div>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, sunt
+      officiis saepe, omnis quam ipsam suscipit magnam molestias cumque,
+      voluptatem asperiores exercitationem fugiat quae rerum velit quia debitis
+      earum!
+    </p>
+  </body>
+</html>
